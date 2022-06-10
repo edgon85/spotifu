@@ -1,0 +1,52 @@
+.filter{
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 1;
+    /* flex: 1; */
+    
+}
+
+.filter i {
+    position: absolute;
+    block-size: 1rem;
+    font-size: 1rem;
+    left: .5rem;
+    top: calc(50% - .5rem);
+    color: var(--white);
+}
+
+.filter input{
+    font: var(--basefont-normal);
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    color: var(--white);
+    max-inline-size: 31.25rem;
+    width: 100%;
+    padding: .5rem;
+    padding-inline-start: 2rem;
+    background-color: transparent;
+}
+
+.filter input:focus{
+    background-color: var(--gray30);
+}
+
+.filter:focus-within i {
+    color: var(--white);
+}
+
+
+.filter input::-webkit-input-placeholder{
+    color: var(--gray10);
+}
+
+.filter input::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    appearance: none;
+    block-size: 0.625rem;
+    inline-size: 0.625rem;
+    background-image: url(../../icons/close.svg);
+    background-size: 0.625rem 0.625rem;
+    cursor: pointer;
+}

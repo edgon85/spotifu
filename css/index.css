@@ -9,6 +9,14 @@
 @import './components/layout.css';
 @import './components/scrollbar.css';
 
+/*  */
+@import './components/button-play.css';
+@import './components/playlist-header.css';
+@import './components/filter.css';
+@import './components/playlist-artist.css';
+@import './components/playlist-icons.css';
+
+
 :root {
   font-size: 14px;
   --primary: #00b050;
@@ -68,6 +76,6 @@ p {
 
 @media screen and (min-width: 1367px) {
   :root {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

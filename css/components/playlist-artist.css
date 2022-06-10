@@ -1,0 +1,46 @@
+
+.playlistLister{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.playlistArtist {
+  overflow: auto;
+  /* inline-size: calc(100vw - var(--sidebarInlineSize)); */
+}
+
+.playlistArtist-header,
+.playlistArtist-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-inline-size: calc(100vw - 20rem);
+}
+
+.playlist-headerItem,
+.playlist-bodyItem {
+   block-size: 2.75rem;
+ min-inline-size: 17rem;
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  font: var(--subtitle2);
+}
+
+.playlist-bodyItem:first-child {
+  gap: 0.625rem;
+}
+
+.playlist-bodyItem:nth-child(4),
+.playlist-headerItem:nth-child(4) {
+  min-inline-size: 5.625rem;
+  color: var(--gray10);
+}
+
+.playlist-headerItem:last-child,
+.playlist-bodyItem:last-child {
+  min-inline-size: 2.9375rem;
+  color: var(--gray10);
+}

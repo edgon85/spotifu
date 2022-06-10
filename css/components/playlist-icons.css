@@ -1,0 +1,29 @@
+.iconPlay {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconPlay:hover .icon-play {
+  color: var(--primary);
+}
+
+.iconPlay .icon-play {
+  position: relative;
+  left: 1px;
+  color: var(--white);
+  /* top: 1px; */
+  /* color: gold; */
+}
+
+
+.iconLike .icon-heart {
+  inline-size: 1.125rem;
+  block-size: 1.125rem;
+  color: var(--white);
+}
