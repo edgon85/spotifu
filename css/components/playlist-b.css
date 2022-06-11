@@ -18,9 +18,11 @@
 }
 
 .playlistB-details {
+    inline-size: 100%;
     display: flex;
     gap: .5rem;
     align-items: center;
+    justify-content: space-between;
     padding: 1rem;
 }
 

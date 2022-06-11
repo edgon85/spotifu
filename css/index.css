@@ -16,6 +16,8 @@
 @import './components/playlist-artist.css';
 @import './components/playlist-icons.css';
 
+@import './components/playlist-header2.css';
+
 
 :root {
   font-size: 14px;

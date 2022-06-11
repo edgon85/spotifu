@@ -1,0 +1,29 @@
+.background{
+   background-image: url(../../images/bg-image.jpg);
+   background-size: contain;
+    background-repeat: no-repeat;
+    block-size: 100vh;
+}
+
+.playlist-header2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19.8125rem;
+}
+
+.playlist-heade2Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-heade2Content h2 {
+    margin-block-end: 1rem;
+}
+
+.playlist-heade2Content span{
+    margin-block-end: 1rem;
+}
